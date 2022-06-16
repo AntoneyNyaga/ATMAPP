@@ -1,0 +1,14 @@
+C:\Users\User\source\repos\ATMAPP\ATMAPP\bin\Debug\netcoreapp3.1\ATMAPP.exe
+C:\Users\User\source\repos\ATMAPP\ATMAPP\bin\Debug\netcoreapp3.1\ATMAPP.deps.json
+C:\Users\User\source\repos\ATMAPP\ATMAPP\bin\Debug\netcoreapp3.1\ATMAPP.runtimeconfig.json
+C:\Users\User\source\repos\ATMAPP\ATMAPP\bin\Debug\netcoreapp3.1\ATMAPP.runtimeconfig.dev.json
+C:\Users\User\source\repos\ATMAPP\ATMAPP\bin\Debug\netcoreapp3.1\ATMAPP.dll
+C:\Users\User\source\repos\ATMAPP\ATMAPP\bin\Debug\netcoreapp3.1\ATMAPP.pdb
+C:\Users\User\source\repos\ATMAPP\ATMAPP\obj\Debug\netcoreapp3.1\ATMAPP.csproj.AssemblyReference.cache
+C:\Users\User\source\repos\ATMAPP\ATMAPP\obj\Debug\netcoreapp3.1\ATMAPP.GeneratedMSBuildEditorConfig.editorconfig
+C:\Users\User\source\repos\ATMAPP\ATMAPP\obj\Debug\netcoreapp3.1\ATMAPP.AssemblyInfoInputs.cache
+C:\Users\User\source\repos\ATMAPP\ATMAPP\obj\Debug\netcoreapp3.1\ATMAPP.AssemblyInfo.cs
+C:\Users\User\source\repos\ATMAPP\ATMAPP\obj\Debug\netcoreapp3.1\ATMAPP.csproj.CoreCompileInputs.cache
+C:\Users\User\source\repos\ATMAPP\ATMAPP\obj\Debug\netcoreapp3.1\ATMAPP.dll
+C:\Users\User\source\repos\ATMAPP\ATMAPP\obj\Debug\netcoreapp3.1\ATMAPP.pdb
+C:\Users\User\source\repos\ATMAPP\ATMAPP\obj\Debug\netcoreapp3.1\ATMAPP.genruntimeconfig.cache
