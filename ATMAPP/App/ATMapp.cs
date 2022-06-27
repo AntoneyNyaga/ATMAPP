@@ -12,6 +12,6 @@ namespace ATMAPP
             Console.WriteLine($"Your Card Numner is {CardNumner}");
 
             Utility.PressEnterToContinue();
-        }
+        } 
     }
 }
