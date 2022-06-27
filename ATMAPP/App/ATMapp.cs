@@ -8,7 +8,7 @@ namespace ATMAPP
         static void Main(string[] args)
         {
             AppScreen.Welcome();
-            String CardNumner = Utility.GetUserInput("Your Card Numner");
+            long CardNumner = Validator.Convert<long>("Your Card Numner");
             Console.WriteLine($"Your Card Numner is {CardNumner}");
 
             Utility.PressEnterToContinue();

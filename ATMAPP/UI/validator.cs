@@ -1,28 +1,38 @@
 ﻿using System;
 using System.Collections.Generic;
+using System.ComponentModel;
 using System.Text;
 
 namespace ATMAPP.UI
 {
     public static class Validator
     {
-        public static object TypeDescriptor { get; private set; }
-
-        public static T Convert<T>(string prompt)
+        public static T Convert <T>(string prompt)
         {
           bool valid = false;
-        String userInput;
+          string userInput;
         while (!valid)
             {
                 userInput = Utility.GetUserInput(prompt);
 
                 try
                 {
-                    var Convertor = TypeDescriptor.GetConvertor(typeof(T));
-                    if (Convertor! = null)
-
+                    var Convertor = TypeDescriptor.GetConverter(typeof(T));
+                    if (Convertor != null)
+                    {
+                        return (T)Convertor.ConvertFromString(userInput);
+                    }
+                    else
+                    {
+                        return default;
+                    }
+                }
+                catch
+                {
+                    Console.WriteLine("Invalid input, Please Try Again");
                 }
             }
+            return default;
 
         }
     }
