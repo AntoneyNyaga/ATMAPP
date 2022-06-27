@@ -4,8 +4,26 @@ using System.Text;
 
 namespace ATMAPP.UI
 {
-    public static class validator
+    public static class Validator
     {
-        public static T convert<T>(string prompt);
+        public static object TypeDescriptor { get; private set; }
+
+        public static T Convert<T>(string prompt)
+        {
+          bool valid = false;
+        String userInput;
+        while (!valid)
+            {
+                userInput = Utility.GetUserInput(prompt);
+
+                try
+                {
+                    var Convertor = TypeDescriptor.GetConvertor(typeof(T));
+                    if (Convertor! = null)
+
+                }
+            }
+
+        }
     }
 }
