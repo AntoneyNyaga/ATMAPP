@@ -29,7 +29,7 @@ namespace ATMAPP.UI
                 }
                 catch
                 {
-                    Console.WriteLine("Invalid input, Please Try Again");
+                    Utility.PrintMessage("Invalid input, Please Try Again", false);
                 }
             }
             return default;
